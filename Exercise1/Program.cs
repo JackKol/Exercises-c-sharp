@@ -12,6 +12,10 @@ namespace Exercise1
         {
             Exercise1.Do();
             Exercise4.Do();
+            Exercise2.Do();
+            Exercise6.Do();
+            Exercise8.Do();
+            Exercise11.Do();
         }
     }
 }
