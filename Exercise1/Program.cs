@@ -10,10 +10,8 @@ namespace Exercise1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
-            Console.WriteLine("Yevhenii Kolomiiets");
-
-            Console.ReadKey();
+            Exercise1.Do();
+            Exercise4.Do();
         }
     }
 }
