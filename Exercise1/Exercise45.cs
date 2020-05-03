@@ -13,12 +13,12 @@ namespace Exercise1
             int[] numbers = {1, 2, 3, 4, 5, 5, 5};
             
             Console.WriteLine("Input an integer:");
-            var x = Convert.ToInt32(Console.ReadLine());
+            var inputValue = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Number of "+ x +" present in the said array:");
-            var countnumb = numbers.Count((y => y == x));
+            Console.WriteLine("Number of "+ inputValue +" present in the said array:");
+            var countNumb = numbers.Count((y => y == inputValue));
 
-            Console.WriteLine(countnumb);
+            Console.WriteLine(countNumb);
             Console.ReadKey();
         }
     }

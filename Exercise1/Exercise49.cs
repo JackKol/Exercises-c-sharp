@@ -10,14 +10,12 @@ namespace Exercise1
     {
         public static void Do()
         {
-            int[] Array1 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
-            int[] Array2 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 5 };
+            int[] array1 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
+            int[] array2 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 5 };
 
-            Console.WriteLine("Array1: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1]");
-            Console.WriteLine("Array2: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 5]");
-
-            if ((Array1.First() == Array2.First() && Array1.Length >= 1) ||
-                ((Array1.Last() == Array2.Last() && Array1.Length >= 1))) 
+            if ((array1.Length >= 1) &&
+                ((array1.First() == array2.First()) ||
+                 (array1.Last()  == array2.Last())))
                 Console.WriteLine("True");
             else
                 Console.WriteLine("False");

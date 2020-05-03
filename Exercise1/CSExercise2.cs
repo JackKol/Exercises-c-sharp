@@ -12,10 +12,10 @@ namespace Exercise1
         {
             int x;
             x = Convert.ToInt32(Console.ReadLine());
-            if (x % 2 > 0)
-                Console.WriteLine(+ x + "is an odd integer");
-            else
+            if (x % 2 == 0)
                 Console.WriteLine(+ x + "is an even integer");
+            else
+                Console.WriteLine(+ x + "is an add integer");
             Console.ReadKey();
         }
     }

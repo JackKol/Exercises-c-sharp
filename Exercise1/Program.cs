@@ -22,8 +22,8 @@ namespace Exercise1
             //Exercise49.Do();
             //Exercise39.Do();
             //CSExercise2.Do();
-            ExerciseFromTaras.Do();
-            //CSExercise4.Do();
+            //ExerciseFromTaras.Do();
+            CSExercise4.Do();
 
         }
     }

@@ -12,14 +12,17 @@ namespace Exercise1
         public static void Do()
         {
             int[] array = { 12, 22, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 18, 18, 1 };
-            Console.WriteLine("array =  12, 22, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 18, 18, 1");
 
-            IEnumerable<int>[] newarray = {array.Where(x => x > 10)}; //array.Count(x => x > 10);
-            
+            List<int> newArray = FilterArray(array, 10);
 
-
-            Console.WriteLine("Array = " + newarray);
+            Console.WriteLine("Array = " + string.Join(",", newArray));
             Console.ReadKey();
+        }
+
+        private static List<int> FilterArray(int[] array, int filterValue)
+        {
+            var newArray = array.Where(x => x > filterValue).ToList();
+            return newArray;
         }
     }
 }

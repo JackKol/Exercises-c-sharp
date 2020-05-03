@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercise1
 {
@@ -10,8 +6,6 @@ namespace Exercise1
     {
         public static void Do()
         {
-            
-
             Console.WriteLine("Input a first number:");
             var x = Convert.ToInt32(Console.ReadLine());
 
@@ -20,11 +14,11 @@ namespace Exercise1
 
             if ((x >= -10) && (y >= -10) && ((x <= 10) && (y <= 10)))
             {
-               
-                    Console.WriteLine("True");
+                Console.WriteLine("True");
             }
             else
                 Console.WriteLine("False");
+
             Console.ReadKey();
         }
     }

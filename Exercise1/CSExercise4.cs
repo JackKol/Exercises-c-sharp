@@ -12,6 +12,8 @@ namespace Exercise1
         {
             int year = 0;
 
+            var isLeap = DateTime.IsLeapYear(year);
+
             while (year < 100 || year >= 10000) //трех- или четырехзначноe положительноe числo
             {
                 Console.WriteLine("Input the year ");
