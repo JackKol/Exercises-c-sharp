@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LExercise3.cs" />
+    <Compile Include="CSExercise4.cs" />
+    <Compile Include="ExerciseFromTaras.cs" />
+    <Compile Include="CSExercise2.cs" />
+    <Compile Include="Exercise49.cs" />
+    <Compile Include="Exercise48.cs" />
+    <Compile Include="Exercise45.cs" />
+    <Compile Include="Exercise39.cs" />
+    <Compile Include="Exercise36.cs" />
     <Compile Include="Exercise11.cs" />
     <Compile Include="Exercise8.cs" />
     <Compile Include="Exercise6.cs" />

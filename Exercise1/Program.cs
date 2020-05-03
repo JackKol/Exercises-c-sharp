@@ -10,12 +10,21 @@ namespace Exercise1
     {
         static void Main(string[] args)
         {
-            Exercise1.Do();
-            Exercise4.Do();
-            Exercise2.Do();
-            Exercise6.Do();
-            Exercise8.Do();
-            Exercise11.Do();
+            //Exercise1.Do();
+            //Exercise4.Do();
+            //Exercise2.Do();
+            //Exercise6.Do();
+            //Exercise8.Do();
+            //Exercise11.Do();
+            //Exercise36.Do();
+            //Exercise45.Do();
+            //Exercise48.Do();
+            //Exercise49.Do();
+            //Exercise39.Do();
+            //CSExercise2.Do();
+            ExerciseFromTaras.Do();
+            //CSExercise4.Do();
+
         }
     }
 }
