@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LExercise3.cs" />
+    <Compile Include="EdxMod1_Lab1.cs" />
+    <Compile Include="LinqExercise4.cs" />
+    <Compile Include="LoopExercise10.cs" />
+    <Compile Include="LoopExercise2.cs" />
+    <Compile Include="CSExercise13.cs" />
+    <Compile Include="LinqExercise3.cs" />
     <Compile Include="CSExercise4.cs" />
     <Compile Include="ExerciseFromTaras.cs" />
     <Compile Include="CSExercise2.cs" />

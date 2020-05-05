@@ -23,7 +23,11 @@ namespace Exercise1
             //Exercise39.Do();
             //CSExercise2.Do();
             //ExerciseFromTaras.Do();
-            CSExercise4.Do();
+            //CSExercise4.Do();
+            //CSExercise13.Do();
+            //LoopExercise2.Do();
+            //LoopExercise10.Do();
+            EdxMod1_Lab1.Do();
 
         }
     }
